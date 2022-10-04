@@ -1,0 +1,7 @@
+certifi
+charset-normalizer
+et-xmlfile
+idna
+openpyxl
+requests
+urllib3

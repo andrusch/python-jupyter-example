@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "aeaf7850-6e16-4b3d-a4f7-9361126392bc",
+		"name": "2_call_provider_directory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16181354"
+	},
+	"item": [
+		{
+			"name": "Find Practioner's with Andrus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://production.api.centene.com/fhir/providerdirectory/Practitioner?family=andrus",
+					"protocol": "https",
+					"host": [
+						"production",
+						"api",
+						"centene",
+						"com"
+					],
+					"path": [
+						"fhir",
+						"providerdirectory",
+						"Practitioner"
+					],
+					"query": [
+						{
+							"key": "family",
+							"value": "andrus"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
